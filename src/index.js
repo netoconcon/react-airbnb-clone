@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Hello from './components/hello';
-import reportWebVitals from './reportWebVitals';
+import Flat from './components/flat';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello name="Boris" lastName="Papillard" />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
